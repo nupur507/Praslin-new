@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Praslin Lifesciences - Pioneering beauty vitamins with real science. Advanced nutritional support for radiant skin, lustrous hair, and strong nails.">
+  <title>Praslin Lifesciences | Beauty Vitamins with Real Science</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <nav class="nav-container">
+      <div class="nav-left">
+        <a href="#products" class="nav-link">Shop</a>
+        <a href="about.html" class="nav-link">About Us</a>
+      </div>
+      <a href="index.html" class="logo-link">
+        <img src="images/praslin-logo.jpg" alt="Praslin Lifesciences" class="logo">
+      </a>
+      <div class="nav-right">
+        <button class="icon-btn" aria-label="Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        </button>
+        <button class="icon-btn" aria-label="Cart">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+        </button>
+      </div>
+      <button class="mobile-menu-btn" aria-label="Menu" onclick="toggleMenu()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+      </button>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#product" class="nav-link">Shop</a>
+      <a href="about.html" class="nav-link">About Us</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero section-cream">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <h1 class="hero-title">
+              Pioneering beauty vitamins with <span class="gradient-text">real science</span>
+            </h1>
+            <p class="hero-description">
+              Advanced nutritional support for radiant skin, lustrous hair, and strong nails. 
+              Scientifically formulated for visible results.
+            </p>
+            <div class="hero-buttons">
+              <a href="#products" class="btn btn-primary">Shop Now</a>
+              <a href="about.html" class="btn btn-outline">Learn More</a>
+            </div>
+          </div>
+          <div class="hero-image-wrapper">
+            <img src="images/Hero Section Product.png" alt="Premium supplement capsules" class="hero-image">
+            <!-- <div class="hero-badge">
+              <span class="badge-label">Clinically Proven</span>
+              <span class="badge-title">Triple Action Formula</span>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust Badges Section -->
+    <section class="trust-section section-white">
+      <div class="container">
+        <div class="trust-grid">
+          <div class="trust-card">
+            <div class="trust-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"/><circle cx="12" cy="8" r="6"/></svg>
+            </div>
+            <h3 class="trust-title">Excellence Award</h3>
+            <p class="trust-description">Recognized for breakthrough research in cosmetic science and nutritional innovation.</p>
+          </div>
+          <div class="trust-card">
+            <div class="trust-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg>
+            </div>
+            <h3 class="trust-title">Premium Quality Supplements</h3>
+            <p class="trust-description">Praslin Lifesciences delivers pharmaceutical-grade beauty supplements for Skin, Hair & Nails.</p>
+          </div>
+          <div class="trust-card">
+            <div class="trust-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v7.31"/><path d="M14 9.3V1.99"/><path d="M8.5 2h7"/><path d="M14 9.3a6.5 6.5 0 1 1-4 0"/><path d="M5.52 16h12.96"/></svg>
+            </div>
+            <h3 class="trust-title">Dermatologist Recommended</h3>
+            <p class="trust-description">Formulated with leading dermatologists and backed by clinical research for proven efficacy.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section section-cream" id="products">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Our <span class="gradient-text">Product Range</span></h2>
+          <p class="section-description">Discover our scientifically formulated supplements designed to support your beauty from within.</p>
+        </div>
+        <div class="products-grid">
+          <div class="product-card">
+            <div class="product-image-wrapper">
+              <img src="images/proimpact-logo.png" alt="ProImpact Original" class="product-image product-logo">
+            </div>
+            <div class="product-content">
+              <h3 class="product-title">ProImpact Original</h3>
+              <p class="product-description">Complement your daily skin, hair and nail care routine with our leading all-in-one beauty supplement.</p>
+              <a href="#" class="product-link">Shop Now <span>&rarr;</span></a>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image-wrapper">
+              <img src="images/natural-beauty.jpg" alt="ProImpact Skin" class="product-image">
+            </div>
+            <div class="product-content">
+              <h3 class="product-title">ProImpact Skin</h3>
+              <p class="product-description">Greater skin support with our Nutri-dermal™ capsule, revitalising and nourishing skin from the inside out.</p>
+              <a href="#" class="product-link">Shop Now <span>&rarr;</span></a>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image-wrapper">
+              <img src="images/hair-wellness.jpg" alt="ProImpact Hair" class="product-image">
+            </div>
+            <div class="product-content">
+              <h3 class="product-title">ProImpact Hair</h3>
+              <p class="product-description">A nourishing hair vitamin formula with biotin and amino acids supporting everyday hair health and growth.</p>
+              <a href="#" class="product-link">Shop Now <span>&rarr;</span></a>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image-wrapper">
+              <img src="images/manicure-wellness.jpg" alt="ProImpact Nails" class="product-image">
+            </div>
+            <div class="product-content">
+              <h3 class="product-title">ProImpact Nails</h3>
+              <p class="product-description">A special range of nutrients and minerals to nourish the nail bed for strength and growth.†</p>
+              <a href="#" class="product-link">Shop Now <span>&rarr;</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section section-white" id="benefits">
+      <div class="container">
+        <div class="benefits-grid">
+          <div class="benefits-image-wrapper">
+            <img src="images/vitamin-wellness.jpg" alt="Natural beauty and wellness" class="benefits-image">
+            <div class="benefits-badge">
+              <span class="benefits-badge-number">25+</span>
+              <span class="benefits-badge-text">Essential Nutrients</span>
+            </div>
+          </div>
+          <div class="benefits-content">
+            <h2 class="section-title">The <span class="gradient-text">Benefits</span> of Our Formula</h2>
+            <p class="section-description">Our advanced formulation combines over 25 essential nutrients to support your beauty routine from the inside out.</p>
+            <div class="benefits-list">
+              <div class="benefit-item">
+                <div class="benefit-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></svg>
+                </div>
+                <div>
+                  <h4 class="benefit-title">Radiant Skin</h4>
+                  <p class="benefit-description">Support healthy skin from within with vitamin C, zinc, and biotin for a natural glow.</p>
+                </div>
+              </div>
+              <div class="benefit-item">
+                <div class="benefit-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
+                </div>
+                <div>
+                  <h4 class="benefit-title">Lustrous Hair</h4>
+                  <p class="benefit-description">Biotin, selenium and amino acids work together to support strong, healthy hair growth.</p>
+                </div>
+              </div>
+              <div class="benefit-item">
+                <div class="benefit-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+                </div>
+                <div>
+                  <h4 class="benefit-title">Strong Nails</h4>
+                  <p class="benefit-description">Essential minerals and vitamins to nourish the nail bed for improved strength.</p>
+                </div>
+              </div>
+              <div class="benefit-item">
+                <div class="benefit-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                </div>
+                <div>
+                  <h4 class="benefit-title">Enhanced Vitality</h4>
+                  <p class="benefit-description">Comprehensive nutrients to support overall wellness and energy levels.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ingredients Section -->
+    <section class="ingredients-section section-soft">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Key <span class="gradient-text">Ingredients</span> & Formulation</h2>
+          <p class="section-description">Each capsule contains a carefully balanced blend of vitamins, minerals, and nutrients specifically selected for beauty support.</p>
+        </div>
+        <div class="ingredients-grid">
+          <div class="ingredients-list">
+            <div class="ingredients-cards">
+              <div class="ingredient-card">
+                <div class="ingredient-header">
+                  <span class="ingredient-name">Biotin</span>
+                  <span class="ingredient-amount">150μg</span>
+                </div>
+                <p class="ingredient-benefit">Hair & nail strength</p>
+              </div>
+              <div class="ingredient-card">
+                <div class="ingredient-header">
+                  <span class="ingredient-name">Vitamin C</span>
+                  <span class="ingredient-amount">80mg</span>
+                </div>
+                <p class="ingredient-benefit">Collagen production</p>
+              </div>
+              <div class="ingredient-card">
+                <div class="ingredient-header">
+                  <span class="ingredient-name">Zinc</span>
+                  <span class="ingredient-amount">15mg</span>
+                </div>
+                <p class="ingredient-benefit">Skin health</p>
+              </div>
+              <div class="ingredient-card">
+                <div class="ingredient-header">
+                  <span class="ingredient-name">Selenium</span>
+                  <span class="ingredient-amount">100μg</span>
+                </div>
+                <p class="ingredient-benefit">Antioxidant protection</p>
+              </div>
+              <div class="ingredient-card">
+                <div class="ingredient-header">
+                  <span class="ingredient-name">Vitamin E</span>
+                  <span class="ingredient-amount">24mg</span>
+                </div>
+                <p class="ingredient-benefit">Skin moisture</p>
+              </div>
+              <div class="ingredient-card">
+                <div class="ingredient-header">
+                  <span class="ingredient-name">Iron</span>
+                  <span class="ingredient-amount">12mg</span>
+                </div>
+                <p class="ingredient-benefit">Healthy hair</p>
+              </div>
+            </div>
+            <div class="quality-note">
+              <p><strong>Premium Quality:</strong> All our ingredients are sourced from trusted suppliers and undergo rigorous quality testing to ensure purity and potency.</p>
+            </div>
+          </div>
+          <div class="ingredients-image-wrapper">
+            <img src="images/nutrition-bowl.jpg" alt="Natural ingredients and nutrition" class="ingredients-image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Science Section -->
+    <section class="science-section section-white">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">The <span class="gradient-text">Science</span> Behind Our Formula</h2>
+          <p class="section-description">At Praslin Lifesciences, we combine cutting-edge research with premium ingredients to create supplements that deliver real, visible results.</p>
+        </div>
+        <div class="science-grid">
+          <div class="science-card">
+            <div class="science-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v7.31"/><path d="M14 9.3V1.99"/><path d="M8.5 2h7"/><path d="M14 9.3a6.5 6.5 0 1 1-4 0"/><path d="M5.52 16h12.96"/></svg>
+            </div>
+            <h3 class="science-title">Scientifically Formulated</h3>
+            <p class="science-description">Developed by nutritional scientists and dermatologists using evidence-based research.</p>
+          </div>
+          <div class="science-card">
+            <div class="science-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 18h8"/><path d="M3 22h18"/><path d="M14 22a7 7 0 1 0 0-14h-1"/><path d="M9 14h2"/><path d="M9 12a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2Z"/><path d="M12 6V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3"/></svg>
+            </div>
+            <h3 class="science-title">Clinically Tested</h3>
+            <p class="science-description">Rigorous clinical trials demonstrate the efficacy and safety of our formulations.</p>
+          </div>
+          <div class="science-card">
+            <div class="science-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="m9 15 2 2 4-4"/></svg>
+            </div>
+            <h3 class="science-title">Quality Assured</h3>
+            <p class="science-description">Manufactured in GMP-certified facilities with strict quality control standards.</p>
+          </div>
+          <div class="science-card">
+            <div class="science-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <h3 class="science-title">Optimal Absorption</h3>
+            <p class="science-description">Advanced delivery technology ensures nutrients are effectively absorbed by your body.</p>
+          </div>
+        </div>
+        <div class="stats-banner">
+          <div class="stat">
+            <span class="stat-number">30+</span>
+            <span class="stat-label">Years Research</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">25+</span>
+            <span class="stat-label">Active Ingredients</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Quality Tested</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">5M+</span>
+            <span class="stat-label">Happy Customers</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications-section section-cream">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Certifications & <span class="gradient-text">Trust</span></h2>
+          <p class="section-description">Our commitment to quality and safety is demonstrated through our rigorous certifications and testing protocols.</p>
+        </div>
+        <div class="certifications-grid">
+          <div class="certification-card">
+            <div class="certification-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg>
+            </div>
+            <h3 class="certification-title">GMP Certified</h3>
+            <p class="certification-description">Manufactured in Good Manufacturing Practice certified facilities</p>
+          </div>
+          <div class="certification-card">
+            <div class="certification-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
+            </div>
+            <h3 class="certification-title">Cruelty Free</h3>
+            <p class="certification-description">No animal testing in any stage of product development</p>
+          </div>
+          <div class="certification-card">
+            <div class="certification-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"/><circle cx="12" cy="8" r="6"/></svg>
+            </div>
+            <h3 class="certification-title">FDA Registered</h3>
+            <p class="certification-description">Produced in FDA registered facilities in compliance with regulations</p>
+          </div>
+          <div class="certification-card">
+            <div class="certification-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/><path d="m9 12 2 2 4-4"/></svg>
+            </div>
+            <h3 class="certification-title">Third-Party Tested</h3>
+            <p class="certification-description">Independent lab verification for purity and potency</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section section-white">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Frequently Asked <span class="gradient-text">Questions</span></h2>
+          <p class="section-description">Find answers to common questions about our products and supplements.</p>
+        </div>
+        <div class="faq-container">
+          <div class="faq-item">
+            <button class="faq-question" onclick="toggleFaq(this)">
+              <span>How long does it take to see results?</span>
+              <svg class="faq-chevron" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Results vary by individual, but most users begin to notice improvements in hair, skin, and nail health within 4-6 weeks of consistent daily use. For optimal results, we recommend continuing supplementation for at least 3 months.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" onclick="toggleFaq(this)">
+              <span>Are there any side effects?</span>
+              <svg class="faq-chevron" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Our supplements are formulated with high-quality, well-tolerated ingredients. Side effects are rare, but as with any supplement, we recommend consulting with your healthcare provider before starting, especially if you are pregnant, nursing, or taking medications.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" onclick="toggleFaq(this)">
+              <span>When is the best time to take the supplements?</span>
+              <svg class="faq-chevron" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>We recommend taking one capsule daily with your main meal. Taking supplements with food helps with absorption and reduces the chance of stomach discomfort.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" onclick="toggleFaq(this)">
+              <span>Can I take these supplements with other vitamins?</span>
+              <svg class="faq-chevron" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Our formula is designed to be comprehensive. If you're already taking other supplements, consult with your healthcare provider to ensure you're not exceeding recommended daily values for certain nutrients.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" onclick="toggleFaq(this)">
+              <span>Are your products suitable for vegetarians?</span>
+              <svg class="faq-chevron" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Many of our products are suitable for vegetarians. Please check the product label or product page for specific dietary information, as formulations may vary by product.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" onclick="toggleFaq(this)">
+              <span>Where are your products manufactured?</span>
+              <svg class="faq-chevron" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>All Praslin Lifesciences products are manufactured in GMP-certified, FDA-registered facilities with strict quality control protocols to ensure the highest standards of safety and efficacy.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="images/praslin-logo.jpg" alt="Praslin Lifesciences" class="footer-logo">
+          <p class="footer-description">Praslin Lifesciences is committed to delivering scientifically formulated supplements for optimal skin, hair, and nail health. Our products are developed with the highest quality standards.</p>
+        </div>
+        <div class="footer-links">
+          <h4 class="footer-heading">Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4 class="footer-heading">Contact Us</h4>
+          <ul>
+            <li>Praslin Lifesciences Inc.</li>
+            <li><a href="tel:+18001234567">1-800-123-4567</a></li>
+            <li><a href="mailto:info@praslinlifesciences.com">info@praslinlifesciences.com</a></li>
+          </ul>
+          <!-- <div class="social-icons">
+            <a href="#" aria-label="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+            </a>
+            <a href="#" aria-label="Twitter">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+            </a>
+          </div> -->
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="disclaimer">†These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</p>
+        <p class="copyright">© 2026 Praslin Lifesciences. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('mobileMenu');
+      menu.classList.toggle('active');
+    }
+
+    function toggleFaq(button) {
+      const item = button.parentElement;
+      const isActive = item.classList.contains('active');
+      
+      // Close all FAQ items
+      document.querySelectorAll('.faq-item').forEach(faq => {
+        faq.classList.remove('active');
+      });
+      
+      // Open clicked item if it wasn't active
+      if (!isActive) {
+        item.classList.add('active');
+      }
+    }
+  </script>
+</body>
+</html>
